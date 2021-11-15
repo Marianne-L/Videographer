@@ -1,0 +1,30 @@
+/* Navbar */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-brand {
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.nav-link:hover {
+    color: #68f
+}
+
+.nav-link.active {
+    color: #68f;
+}
