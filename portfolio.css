@@ -1,13 +1,12 @@
 /* Videos */
 .content {
-    padding-top: 5%;
     justify-content: center;
     align-items: center;
 }
 
 .video {
     position: relative;
-    height: 300px;
+    height: 288px;
     width: 480px;
     padding: 20px;
 }

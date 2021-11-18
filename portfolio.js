@@ -1,7 +1,7 @@
 const videos = document.querySelectorAll('.video')
 
 let generateUrl = function (id) {
-    let query = '&rel=0&showInfo=0&autoplay=1'
+    let query = '?rel=0&showInfo=0&autoplay=1'
 
     return 'https://www.youtube.com/embed/' + id + query
 }
