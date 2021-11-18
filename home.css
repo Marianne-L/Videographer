@@ -8,7 +8,7 @@
     height: 100%;
     overflow: hidden;
 
-    background: rgb(0, 0, 0) url("./Materials/TXT_LOVESONG_Cover.jpg") no-repeat 50% 50%;
+    background: rgb(0, 0, 0) no-repeat 50% 50%;
     opacity: .9;
     background-size: cover;
 }

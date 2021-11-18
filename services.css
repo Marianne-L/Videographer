@@ -1,0 +1,51 @@
+.description-bg {
+    background-color: #111; 
+    margin-top: 50px;
+    border: 15px solid #111;
+}
+
+.description {
+    padding: 0; 
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-tabs {
+    margin-top: 50px; 
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: #a0b9ff;
+}
+
+a:hover{
+    color: #ffffff;
+}
+
+.tab-content {
+    font-family: Montserrat;
+    font-size: 12pt;
+    
+}
+
+.table {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.thead {
+    color: #fff;
+    font-size: 15pt;
+    font-weight: 700;
+}
+
+.price {
+    color: #fff;
+}
+
+.list-group-item {
+    color: #fff;
+    background: #222;
+}
