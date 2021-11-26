@@ -1,3 +1,10 @@
+body {
+    background-color: #222;
+    background-image: url(./Materials/Portfolio_BG.svg);
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
 /* Videos */
 .content {
     justify-content: center;
@@ -11,25 +18,28 @@
     padding: 20px;
 }
 
-.yt-btn {
+.yt__btn {
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
     height: 20%;
 }
 
-.yt-img, iframe {
+.btn_transp_bg {
+    fill-opacity: 0.7;
+}
+
+
+.yt__img, iframe {
     width: 100%;
     height: 100%;
     display: block;
     object-fit: cover;
 }
 
-#yt-play-btn {
-    fill-opacity: 0.7;
-}
 
-.video:hover #yt-play-btn {
+
+.video:hover .btn_transp_bg {
     fill: rgb(252, 18, 18);
     fill-opacity: 1;
     cursor: pointer;

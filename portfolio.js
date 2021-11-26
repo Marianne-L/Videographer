@@ -8,7 +8,7 @@ let generateUrl = function (id) {
 
 let createIframe = function(id) {
     let iframe = document.createElement('iframe')
-    iframe.setAttribute('aalowfullscreen', '')
+    iframe.setAttribute('allowfullscreen', '')
     iframe.setAttribute('allow', 'autoplay', 'encrypted-media')
     iframe.setAttribute('src', generateUrl(id))
 
@@ -22,14 +22,14 @@ videos.forEach((el) => {
     let videoID = videoHref.substring(deletedLength, videoHref.length)
 
     let ytImgSrc = 'https://i.ytimg.com/vi/' + videoID + '/maxresdefault.jpg'
-    let ytImg = el.querySelector('.yt-img')
+    let ytImg = el.querySelector('.yt__img')
     ytImg.setAttribute('src', ytImgSrc)    
 
     el.addEventListener('click', function() {
         let iframe = createIframe(videoID)
 
-        el.querySelector('.yt-img').remove()
-        el.querySelector('.yt-btn').remove()
+        el.querySelector('.yt__img').remove()
+        el.querySelector('.yt__btn').remove()
 
         el.appendChild(iframe)
     })
