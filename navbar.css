@@ -4,7 +4,8 @@
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.navbar-brand {
+.logotype {
+    padding-left: 5px;
     color: #fff;
     font-family: 'Exo 2', sans-serif;
     font-style: italic;
@@ -21,7 +22,8 @@
 }
 
 .nav-link:hover {
-    color: #68f
+    color: #68f;
+    transition: .5s ease;
 }
 
 .nav-link.active {
