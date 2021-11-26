@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="934" viewBox="0 0 1920 934">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.074" x2="0.891" y2="0.922" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#656565"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.074" x2="0.891" y2="0.922" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b18bff"/>
+      <stop offset="1" stop-color="#6891ff"/>
+    </linearGradient>
+    <clipPath id="clip-Portfolio_2">
+      <rect width="1920" height="934"/>
+    </clipPath>
+  </defs>
+  <g id="Portfolio_2" data-name="Portfolio – 2" clip-path="url(#clip-Portfolio_2)">
+    <g id="BG">
+      <line id="Линия_11" data-name="Линия 11" x2="1920" y2="395" transform="translate(0.5 456.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.5"/>
+      <line id="Линия_10" data-name="Линия 10" x2="1920" y2="662" transform="translate(0.5 0.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.5"/>
+      <line id="Линия_9" data-name="Линия 9" y1="694" x2="1920" transform="translate(0.5 142.5)" fill="none" stroke="#6891ff" stroke-width="1" opacity="0.54"/>
+      <rect id="Прямоугольник_32" data-name="Прямоугольник 32" width="74" height="72" rx="10" transform="translate(37 291)" opacity="0.1" fill="url(#linear-gradient)"/>
+      <rect id="Прямоугольник_34" data-name="Прямоугольник 34" width="74" height="72" rx="10" transform="translate(1899.5 491.5) rotate(90)" opacity="0.1" fill="url(#linear-gradient)"/>
+      <rect id="Прямоугольник_41" data-name="Прямоугольник 41" width="74" height="72" rx="10" transform="translate(1956.5 762.5) rotate(90)" opacity="0.1" fill="url(#linear-gradient)"/>
+      <rect id="Прямоугольник_39" data-name="Прямоугольник 39" width="74" height="72" rx="10" transform="translate(58.5 777.5) rotate(90)" opacity="0.1" fill="url(#linear-gradient)"/>
+      <rect id="Прямоугольник_31" data-name="Прямоугольник 31" width="114" height="112" rx="10" transform="translate(-30 224)" opacity="0.2" fill="url(#linear-gradient-5)"/>
+      <rect id="Прямоугольник_35" data-name="Прямоугольник 35" width="85" height="84" rx="10" transform="translate(-42 529)" opacity="0.1" fill="url(#linear-gradient)"/>
+      <rect id="Прямоугольник_40" data-name="Прямоугольник 40" width="85" height="84" rx="10" transform="translate(1878 201)" opacity="0.2" fill="url(#linear-gradient-5)"/>
+      <rect id="Прямоугольник_33" data-name="Прямоугольник 33" width="114" height="112" rx="10" transform="translate(1975.5 414.5) rotate(90)" opacity="0.2" fill="url(#linear-gradient-5)"/>
+      <rect id="Прямоугольник_38" data-name="Прямоугольник 38" width="60" height="60" rx="10" transform="translate(40.5 821.5) rotate(90)" opacity="0.2" fill="url(#linear-gradient-5)"/>
+    </g>
+  </g>
+</svg>
