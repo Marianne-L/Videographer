@@ -1,0 +1,53 @@
+.page {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.socialMedia {
+    width: 100px;
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.socialMedia__icon{
+    opacity: 0.8
+}
+
+.socialMedia__icon:hover {
+    opacity: .8;
+    transition: .3s ease;
+    fill:#68f;
+}
+
+.copyright {
+    font-family: Montserrat;
+    font-size: 9pt;
+} 
+
+
+@media (max-width: 765px) {
+    
+    .footer {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .copyright {
+        padding-top: 10px;
+    }
+    
+}

@@ -1,29 +1,45 @@
+/* BG */
 body {
     background-color: #222;
     background-image: url(./Materials/Lines_BG.svg);
     background-position: top center;
 }
-.description-bg {
-    background-color: rgba(0, 0, 0, 0.6); 
+
+/* Header */
+
+.description__bg {
+    background-color: rgba(0, 0, 0, 0.25); 
     padding-bottom: 3vh;
     padding-top: 3vh;
     
-    box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.15);
 }
 
-.description {
+.description__text {
+    font-family: Montserrat;
+    font-size: 11pt;    
     color: #ddd;
     padding: 0; 
     margin: 0 auto;
     text-align: center;
+
+    width: 650px;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #68f;
+}
+
+
+/* Services */
 .nav-tabs {
-    margin-top: 50px; 
+    padding-top: 50px; 
     justify-content: space-evenly;
-}
-
-.nav-tabs{
     border-bottom: #ddd;
 }
 
@@ -33,16 +49,8 @@ body {
     border-bottom: #ddd;
 }
 
-a{
-    text-decoration: none;
-    color: #fff;
-}
-
-a:hover{
-    color: #68f;
-}
-
 .tab-content {
+    color: #111;
     font-family: Montserrat;
     font-size: 12pt;    
 }
@@ -54,16 +62,51 @@ a:hover{
 
 }
 
-.table {
-    margin-top: 5%;
+.info {
+    display: flex;
+    padding: 5% 1%;
     text-align: center;
+
 }
 
-.thead {
+.info__title {
     font-size: 15pt;
     font-weight: 700;
 }
 
 .list-group-item {
-    background-color: #ddd
+    background-color: #ddd;
+    text-align: left;
+}
+
+@media (max-width: 770px) {
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        padding: 5% 1%;
+        text-align: center;
+    }
+
+    .nav-link {
+        border-radius: 5px;
+    }
+
+    .nav-tabs {
+        padding-bottom: 8px;
+    }
+
+    .tab-content {
+        font-family: Montserrat;
+        font-size: 11pt;    
+    }
+
+    .description__text {
+        font-size: 10pt;
+        width: auto;
+    }
+
+    .info__title {
+        font-size: 13pt;
+    }
 }
