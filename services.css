@@ -1,8 +1,9 @@
 /* BG */
 body {
     background-color: #222;
-    background-image: url(./Materials/Lines_BG.svg);
+    background-image: url(./Materials/Portfolio_BG.svg);
     background-position: top center;
+    background-repeat: repeat-y;
 }
 
 /* Header */
@@ -18,7 +19,7 @@ body {
 .description__text {
     font-family: Montserrat;
     font-size: 11pt;    
-    color: #ddd;
+    color: #eee;
     padding: 0; 
     margin: 0 auto;
     text-align: center;
@@ -38,33 +39,35 @@ a:hover {
 
 /* Services */
 .nav-tabs {
-    padding-top: 50px; 
+    padding-top: 35px; 
     justify-content: space-evenly;
-    border-bottom: #ddd;
+    border-bottom: #eee;
 }
 
 .nav-tabs .nav-link.active {
     color: #111;
-    background-color: #ddd;
-    border-bottom: #ddd;
+    background-color: #eee;
+    border-bottom: #eee;
 }
 
 .tab-content {
     color: #111;
     font-family: Montserrat;
-    font-size: 12pt;    
+    font-size: 12pt;
+    
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.4); 
 }
 
 .tab-pane {
-    background-color: #ddd;
-    border: 3px solid #ddd;
+    background-color: #eee;
+    border: 3px solid #eee;
     border-radius: 5px;
 
 }
 
 .info {
     display: flex;
-    padding: 5% 1%;
+    padding: 3% 1%;
     text-align: center;
 
 }
@@ -75,16 +78,60 @@ a:hover {
 }
 
 .list-group-item {
-    background-color: #ddd;
+    background-color: #eee;
     text-align: left;
 }
+
+
+/* FAQ */
+.FAQ {
+    margin-top: 35px;
+    background-color: #eee;
+    border: 3px solid #eee;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.4);
+
+
+}
+
+.FAQ__header {
+    margin-top: 10px;
+    font-size: 15pt;
+    font-weight: 700;
+    text-align: center;
+}
+
+.accordion {
+    margin-top: 15px;
+    background-color: #eee;
+    
+    color: #111;
+    font-family: Montserrat;
+    font-size: 12pt;
+}
+
+.accordion-button {
+    font-style: italic;
+    background-color: #eee;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #68f;
+    background-color: #fff;
+}
+
+.accordion-body {
+    background-color: #fff;
+}
+
+
+
 
 @media (max-width: 770px) {
 
     .info {
         display: flex;
         flex-direction: column;
-        padding: 5% 1%;
         text-align: center;
     }
 
@@ -96,8 +143,7 @@ a:hover {
         padding-bottom: 8px;
     }
 
-    .tab-content {
-        font-family: Montserrat;
+    .tab-content, .accordion{
         font-size: 11pt;    
     }
 
