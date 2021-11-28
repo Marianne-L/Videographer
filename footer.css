@@ -1,3 +1,5 @@
+/* Footer */
+
 .page {
     display: flex;
     overflow: hidden;
@@ -10,11 +12,11 @@
     justify-content: space-between;
     align-items: center;
     margin-top: auto;
+    padding: 20px;
     text-align: right;
-    padding-bottom: 10px;
 }
 
-.socialMedia {
+.social-media {
     width: 100px;
     list-style: none;
     display: inline-flex;
@@ -23,11 +25,11 @@
     padding-left: 0;
     margin-bottom: 0;
 }
-.socialMedia__icon{
+.social-media__icon{
     opacity: 0.8
 }
 
-.socialMedia__icon:hover {
+.social-media__icon:hover {
     opacity: .8;
     transition: .3s ease;
     fill:#68f;

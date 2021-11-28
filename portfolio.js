@@ -22,14 +22,15 @@ videos.forEach((el) => {
     let videoID = videoHref.substring(deletedLength, videoHref.length)
 
     let ytImgSrc = 'https://i.ytimg.com/vi/' + videoID + '/maxresdefault.jpg'
-    let ytImg = el.querySelector('.yt__img')
+    let ytImg = el.querySelector('.video__img')
     ytImg.setAttribute('src', ytImgSrc)    
 
     el.addEventListener('click', function() {
         let iframe = createIframe(videoID)
 
-        el.querySelector('.yt__img').remove()
-        el.querySelector('.yt__btn').remove()
+        el.querySelector('.video__img').remove()
+        el.querySelector('.video__btn').remove()
+        el.querySelector('.video__title').remove()
 
         el.appendChild(iframe)
     })
