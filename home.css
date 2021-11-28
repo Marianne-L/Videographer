@@ -1,5 +1,5 @@
 /* Intro BG*/
-.intro__bg {
+.bg {
     position: absolute;
     left: 0;
     top: 0;
@@ -12,7 +12,7 @@
     background-size: cover;
 }
 
-.intro__bg::before {
+.bg::after {
     content: '';
     position: absolute;
     top: 0; left: 0;
@@ -20,10 +20,10 @@
     width: 100%;
     height: 100%;
 
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-.intro__bgVideo {
+.bg__video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -35,7 +35,7 @@
 }
 
 /* Intro content*/
-.content {    
+.intro {    
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     text-align: center;
@@ -51,13 +51,20 @@
     color: #fff;
 }
 
-.sign {
+.intro__photo {
+    border: 2px solid rgba(102, 135, 255, 0.5);
+    border-radius: 50%;
+    padding: 7px;
+}
+
+
+.intro__sign {
     font-size: 12px;
     font-style: italic;
     padding-top: 10px;
 }
 
-.greeting {
+.intro__greeting {
     font-family: 'Exo 2', sans-serif;
     font-style: italic;
     font-weight: 600;
@@ -66,20 +73,11 @@
     padding-top: 20px;
 }
 
-@media (max-width: 450px) {
-    .greeting {
-        font-size: 32px;
-    }
-    .content {
-        font-size: 14px;
-    }
-}
-
-.description{
+.intro__description{
     padding-top: 20px;
 }
 
-.socialMedia {
+.intro__social-media {
     padding: 0;
     width: 240px;
     list-style: none;
@@ -92,4 +90,14 @@
 .icon:hover {
     fill:#68f;
     transition: .3s ease;
+}
+
+
+@media (max-width: 450px) {
+    .intro__greeting {
+        font-size: 32px;
+    }
+    .intro__content {
+        font-size: 14px;
+    }
 }
