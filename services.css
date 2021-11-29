@@ -83,22 +83,32 @@ a:hover {
 }
 
 
-/* FAQ */
-.FAQ {
+/* Form & FAQ */
+.section {
     margin-top: 35px;
+    padding: 10px 10px;
     background-color: #eee;
     border: 3px solid #eee;
     border-radius: 5px;
     box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.4);
-
-
 }
 
-.FAQ__header {
+.section__header {
     margin-top: 10px;
     font-size: 15pt;
     font-weight: 700;
     text-align: center;
+}
+
+.btn {
+    background-color: #68f;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #222;
+    border: 1px solid #222;
+    border-radius: 5px;
 }
 
 .accordion {
