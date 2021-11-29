@@ -77,7 +77,7 @@
         </ul>
         
         <!-- Services info -->
-        <div class="tab-content ">
+        <div class="tab-content main-text">
             <div class="tab-pane active" id="firstTab" role="tabpanel">
 
                 <div class="info">
@@ -153,42 +153,56 @@
         </div>
 
         <!-- Form -->
-        <form class="row g-1 form section">
-
+        <div class="section">
             <h2 class="section__header">Оставить заявку на видео</h2>
-            <div class="col-md-12">
-                <label for="formSelect" class="form-label">Вид услуги</label>
-                <select class="form-select" id="formSelect">
-                    <option selected>Клип</option>
-                    <option value="1">Видеосъемка мероприятия</option>
-                    <option value="2">Рекламное видео</option>
-                </select>
-            </div>
+            <form class="row g-1 needs-validation form form-text">
 
-            <div class="col-md-6">
-                <label for="inputName" class="form-label">Имя</label>
-                <input type="text" class="form-control" id="inputName">
-            </div>
-            <div class="col-md-6">
-                <label for="inputEmail" class="form-label">E-mail</label>
-                <input type="email" class="form-control" id="inputEmail">
-            </div>
-                           
-            <div class="mb-3">
-                <label for="formFile" class="form-label">Техническое задание (.txt, .docx)</label>
-                <input class="form-control" type="file" id="formFile">
-            </div>
+                <div class="col-md-12">
+                    <label for="formSelect" class="form-label">Вид услуги<span style="color:red"> *</span></label>
+                    <select class="form-select" id="formSelect" required>
+                        <option value="">Выберите вид контента...</option>
+                        <option value="1">Клип</option>
+                        <option value="2">Видеосъемка мероприятия</option>
+                        <option value="3">Рекламное видео</option>                    
+                    </select>
+                </div>
 
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Отправить</button>
-            </div>
+                <div class="col-md-6">
+                    <label for="inputName" class="form-label">Имя заказчика<span style="color:red"> *</span></label>
+                    <input type="text" class="form-control" id="inputName" required>
+                </div>
 
-        </form>
+                <div class="col-md-6">
+                    <label for="inputName" class="form-label">Название организации/сообщества</label>
+                    <input type="text" class="form-control" id="inputName">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="inputEmail" class="form-label">E-mail<span style="color:red"> *</span></label>
+                    <input type="email" class="form-control" aria-label="file example" id="inputEmail" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="inputName" class="form-label">Ссылка на сайт/основную соц. сеть</label>
+                    <input type="text" class="form-control" id="inputName">
+                </div>
+                            
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Техническое задание (.txt, .docx)<span style="color:red"> *</span></label>
+                    <input class="form-control" type="file" id="formFile" required >
+                </div>
+
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </div>
+
+            </form>
+        </div>
 
         <!-- FAQ -->
         <div class="section">
         <h2 class="section__header">FAQ</h2>
-        <div class="accordion" id="FAQ">
+        <div class="accordion main-text" id="FAQ">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">

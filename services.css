@@ -38,6 +38,12 @@ a:hover {
 
 
 /* Services */
+.main-text {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 12pt;
+}
+
 .nav-tabs {
     padding-top: 35px; 
     justify-content: space-evenly;
@@ -50,11 +56,7 @@ a:hover {
     border-bottom: #eee;
 }
 
-.tab-content {
-    color: #111;
-    font-family: Montserrat;
-    font-size: 12pt;
-    
+.tab-content {  
     box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.4); 
 }
 
@@ -114,10 +116,6 @@ a:hover {
 .accordion {
     margin-top: 15px;
     background-color: #eee;
-    
-    color: #111;
-    font-family: Montserrat;
-    font-size: 12pt;
 }
 
 .accordion-button {
@@ -153,7 +151,7 @@ a:hover {
         padding-bottom: 8px;
     }
 
-    .tab-content, .accordion{
+    .main-text {
         font-size: 11pt;    
     }
 
