@@ -126,6 +126,7 @@
     .intro__description {    
         font-size: 14px;
         padding-left: 3vh;
+        padding-top: 10px;
         max-width: 780px;
     }
 
