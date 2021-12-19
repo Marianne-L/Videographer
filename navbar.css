@@ -19,13 +19,6 @@
     padding: 8px 16px;
 }
 
-@media (max-width: 417px) {
-    .navbar .container {
-        justify-content: center;
-    }
-    
-}
-
 .navbar-brand:hover {
     color: #fff;
 }
@@ -42,4 +35,11 @@
 
 .nav-link.active {
     color: #68f;
+}
+
+@media (max-width: 417px) {
+    .navbar .container {
+        justify-content: center;
+    }
+    
 }

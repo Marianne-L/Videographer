@@ -37,19 +37,6 @@ body {
     opacity: 1;
 }
 
-
-@media (max-width: 1200px) {
-    .video {
-        height: 186px;
-        width: 330px;
-        margin: 10px;
-    }
-
-    .video__title {
-    font-size: 8pt;
-    }
-}
-
 .video__btn {
     z-index: 10;
     position: absolute;
@@ -76,3 +63,15 @@ body {
 }
 
 .video:hover {cursor: pointer;}
+
+@media (max-width: 1200px) {
+    .video {
+        height: 186px;
+        width: 330px;
+        margin: 10px;
+    }
+
+    .video__title {
+    font-size: 8pt;
+    }
+}
