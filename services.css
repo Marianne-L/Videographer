@@ -84,7 +84,6 @@ a:hover {
     text-align: left;
 }
 
-
 /* Form & FAQ */
 .section {
     margin-top: 35px;
@@ -131,9 +130,6 @@ a:hover {
 .accordion-body {
     background-color: #fff;
 }
-
-
-
 
 @media (max-width: 770px) {
 
